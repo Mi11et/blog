@@ -1,0 +1,50 @@
+site_name: VVsxmja 的个人博客
+
+nav:
+  - 目录:
+    - 首页: index.md
+    - 我的坑:
+      - WebRPG: webrpg.md
+
+theme:
+  name: material
+  language: zh
+  palette:
+    primary: light blue
+    accent: light blue
+  features:
+    - instant
+
+markdown_extensions:
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.mark
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed
+  - pymdownx.tilde
+  - admonition
+  - codehilite:
+      guess_lang: false
+      linenums: true
+  - toc:
+      permalink: true
+
+plugins:
+  - search # necessary for search to work
+  # - git-revision-date-localized:
+  #     type: date
+  - minify:
+      minify_html: true
+
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML
