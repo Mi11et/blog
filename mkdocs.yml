@@ -6,6 +6,7 @@ nav:
   - 首页: index.md
   - 我的坑:
     - WebRPG: webrpg.md
+    - TetrisC: tetrisc.md
 
 theme:
   name: material
