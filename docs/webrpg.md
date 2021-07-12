@@ -4,4 +4,4 @@
 
 这是一个使用命令交互的回合制RPG游戏。
 
-试玩地址：<a href="https://mi11et.github.io/webrpg" target="_blank">mi11et.github.io/webrpg</a>
+试玩地址：<a href="https://vvsxmja.github.io/webrpg" target="_blank">vvsxmja.github.io/webrpg</a>
